@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaibhavi Rathod</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700;800;900&family=Kanit:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"
+    />
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- SplideJs Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.1/dist/css/splide.min.css"
+    />
+    <!-- App Styles -->
+    <link rel="stylesheet" href="styles/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="animate__animated animate__slideInDown">
+        <div class="container">
+          <h1 class="header__logo">
+            <a href="/"> V. </a>
+          </h1>
+          <nav class="navigation">
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#portfolio">Work</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a class="btn btn--main" href="assets/vaibhavi_rathod.pdf" download>
+              <i class="bi bi-download"></i> Resume
+            </a>
+          </nav>
+          <div class="header__resume">
+            <a class="btn btn--main" href="assets/vaibhavi_rathod.pdf" download>
+              <i class="bi bi-download"></i> Resume
+            </a>
+          </div>
+          <div class="header__mobile">
+            <button id="navigation-button">
+              <i class="bi bi-list"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__wrapper">
+          <h1 class="hero__title animate__animated animate__slideInDown">
+            VAIBHAVI RATHOD <br />
+            WHO WRITES CODES TO BUILD THINGS
+          </h1>
+          <p class="hero__content animate__animated animate__slideInDown">
+            I'm a software developer who is specialized in building exceptional web services, applications, 
+            and everything in between. I'm passionate about building things that people love.
+          </p>
+
+          <div
+            class="hero__img"
+            style="background-image: url('assets/curve.png')"
+          >
+            <div class="hero__imgCircle animate__animated animate__slideInUp">
+              <img src="assets/profile.jpg" alt="Profile Picture" />
+            </div>
+          </div>
+
+          <div class="hero__social animate__animated animate__slideInUp">
+            <ul class="social">
+              <li>
+                <a href="https://www.linkedin.com/in/vaibhavi-rathod-8316891a5/"><i class="bi bi-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/vaibhavirathod"><i class="bi bi-github"></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/VaibhaviRathod8"><i class="bi bi-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/isharathod.018/"><i class="bi bi-facebook"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about">
+          <div class="about__left">
+            <div class="section__header">
+              <h2 class="section__title">About</h2>
+              <p class="section__subtitle">Few things about me</p>
+            </div>
+            <p class="about__bio" style="text-align: justify">
+              Hello! I'm Vaibhavi, a software developer born in Ahmedabad raised in Gujarat in the '90s.
+              Being a Software Engineer is more than just programming. It’s a chance to help other people 
+              through the power of technology. Having this as a job gives engineers the power to influence other 
+              peoples life through programs that could help them with day-to-day tasks.
+              so, I've chosen my career path as a software developer.
+            </p>
+            <p class="about__bio" style="text-align: justify">I completed Bachelor of Engineering in Information Technology 
+              at Gujarat technological university. Recently, I am working as a backend developer at Creole Studios, 
+              where I've worked on a wide variety of interesting web projects.
+            </p>
+            <h4 class="about__skillsTitle">Skills</h4>
+            <ul class="about__skillsList">
+              <li>TypeScript</li>
+              <li>JavaScript (ES6)</li>
+              <li>Node.JS</li>
+              <li>Express.JS</li>
+              <li>Nest.JS</li>
+              <li>Python</li>
+              <li>Django</li>
+              <li>Jest</li>
+            </ul>
+          </div>
+          <div class="about__right">
+            <!-- TODO later change avatar -->
+            <img src="assets/avatar.png" alt="Profile Picture" v />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="container" id="experience">
+      <div class="section" id="testimonials">
+        <div class="section__header section__header--center">
+          <h2 class="section__title">Where I’ve Worked</h2>
+          <!-- <p class="section__subtitle">What things I done</p> -->
+        </div>
+        <div class="testimonials">
+          <div class="splide">
+            <div class="splide__track">
+              <div class="splide__list">
+
+                <div class="testimonials__box splide__slide">
+                  <div class="testimonials__content">
+                    <span class="testimonials__sign">
+                      <i class="bi bi-chat-square-quote"></i>
+                    </span>
+                    <p class="testimonials__quotes" style="text-align: justify;">
+                      Worked as a Python developer intern for 2 months @BrainyBeam Technologies Pvt. Ltd.
+                      After that completed an academic project from brainyBeam in Python Django,
+                      had the basic idea of data science and machine learning. 
+                      Tasked to build project "speech recognition system" which converts text to speech and vice versa.
+                    </p>
+                    <div class="testimonials__author">
+                      <div class="testimonials__authorInfo">
+                        <h4>Python Intern</h4>
+                        <a href="http://brainybeam.com/"><p>@BrainyBeam Technologies</p></a>
+                        <p>May 2020 - December 2020</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonials__box splide__slide">
+                  <div class="testimonials__content">
+                    <span class="testimonials__sign">
+                      <i class="bi bi-chat-square-quote"></i>
+                    </span>
+                    <p class="testimonials__quotes" style="text-align: justify;">
+                      Worked as a Full-Stack Intern for 4 months @Creole Studios. 
+                      As an intern, I learned Javascript, Typescript, Node.JS, Express.JS, and Nest.JS. 
+                      Created various projects like a Blog, Library Management, and many more.
+                      Then I started to develop RESTful APIs for a live ongoing project called LoanTack.
+                    </p>
+                    <div class="testimonials__author">
+                      <div class="testimonials__authorInfo">
+                        <h4>Full-Stack Intern</h4>
+                        <a href="https://www.creolestudios.com/"><p>@Creole Studios</p></a>
+                        <p>December 2020 - April 2021</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonials__box splide__slide">
+                  <div class="testimonials__content">
+                    <span class="testimonials__sign">
+                      <i class="bi bi-chat-square-quote"></i>
+                    </span>
+                    <p class="testimonials__quotes" style="text-align: justify">
+                      Currently working as an Associative Programmer. 
+                      Work along with a small team of developers to create the backend of a project called
+                      FriMarked & Target Align.
+                      My major responsibility was to develop RESTful APIs using Nest.JS and Express.JS using 
+                      MySQL as database that served data to JavaScript front-end applications.
+                    </p>
+                    <div class="testimonials__author">
+                      <div class="testimonials__authorInfo">
+                        <h4>Backend Developer</h4>
+                        <a href="https://www.creolestudios.com/"><p>@Creole Studios</p></a>
+                        <p>April 2021 - Till now</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section animate__animated animate__slideInUp" id="portfolio">
+      <div class="container">
+        <div class="section__header section__header--center">
+          <h2 class="section__title">Portfolio</h2>
+          <p class="section__subtitle">See my latest work</p>
+        </div>
+        <div class="portfolio">
+          <div class="portfolio__box">
+            <div class="portfolio__img">
+              <img src="assets/loantack.png" alt="Portfolio Items" />
+            </div>
+            <div class="portfolio__info">
+              <h3 class="portfolio__title">LoanTack</h3>
+              <p class="portfolio__content" style="text-align: justify">
+                LoanTack is a US based mortgage platform aimed at making the experience of getting 
+                a mortgage hassle-free for their customers. LoanTack helps their customers with mortgages
+                to buy a home, refinance for a better rate or to cash out their properties. 
+                They provide an array of loan officers who assist their borrowers to get loans on time at 
+                lowest available rates and with the best mortgage.
+              </p>
+              <!-- <a class="portfolio__link" href="#">See Work <i class="bi bi-arrow-right"></i></a> -->
+            </div>
+          </div>
+          <div class="portfolio__box">
+            <div class="portfolio__img">
+              <img src="assets/frimarked.png" alt="Portfolio Items" />
+            </div>
+            <div class="portfolio__info">
+              <h3 class="portfolio__title">FriMarked</h3>
+              <p class="portfolio__content" style="text-align: justify">
+                FriMarked is a web-based portal that works as a middleman platform between the Employer 
+                (who has a job) and a specialist (who performs a job). In order to access the system, 
+                users will have to register themselves. The user can be an employer, specialist, or both according to 
+                their needs. The employer can create a task by adding all the required details. 
+                The employer can also suggest a particular task to the specialist. 
+              </p> </br>
+              <!-- <a class="portfolio__link" href="#">See Work <i class="bi bi-arrow-right"></i></a> -->
+            </div>
+          </div>
+          <div class="portfolio__box">
+            <div class="portfolio__img">
+              <img src="assets/okr.png" alt="Portfolio Items" />
+            </div>
+            <div class="portfolio__info">
+              <h3 class="portfolio__title">Target Align</h3>
+              <p class="portfolio__content" style="text-align: justify">
+                The project is to build a subscription-based Objective/ Key Results Cloud App. 
+                Target customers are medium to large companies that are on path to accelerate growth 
+                and willing to try new ideas and new solutions. Companies should already have an org chart 
+                system where we can benefit from using their organization hierarchy structure.
+              </p></br>
+              <!-- <a class="portfolio__link" href="#">See Work <i class="bi bi-arrow-right"></i></a> -->
+            </div>
+          </div>
+          <div class="portfolio__box">
+            <div class="portfolio__img">
+              <img src="assets/srs.png" alt="Portfolio Items" />
+            </div>
+            <div class="portfolio__info">
+              <h3 class="portfolio__title">Speech Recognition System</h3>
+              <p class="portfolio__content" style="text-align: justify">
+                Speech recognition and speech-to-text programs have a number of applications for users with 
+                and without disabilities. Speech-to-text has been used to help struggling writers boost their
+                writing productional and to provide alternate access to a computer for individuals with physical
+                impairments. Other applications include speech recognition for foreign language
+                learning voice activated products for the blind and many familiar mainstream technologies.
+              </p></br>
+              <!-- <a class="portfolio__link" href="#">See Work <i class="bi bi-arrow-right"></i></a> -->
+            </div>
+          </div>
+        </div>
+        <!-- <div class="section__footer">
+          <a href="#contact">
+            Ask for More Projects
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="section__header section__header--center">
+          <h2 class="section__title">Get In Touch</h2>
+          <p class="section__subtitle" style="text-align: center">
+            I'm always looking for new opportunities, my inbox is always
+            open. </br>Whether you have a question or just want to say hi, I'll
+            try my best to get back to you!</p>
+        </div>
+        <div class="contact__fields" style="text-align:center">
+          <a href="mailto:rathodvaibhavi18499@gmail.com"><button class="btn btn--main" type="submit"> Say Hello </button></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__copyright">
+        <p>	&#169; by Vaibhavi Rathod</a</p>
+        <p>Original Design &hearts; by devfolio.io</p>
+      </div>
+    </footer>
+
+    <!-- SplideJs v3 -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.1/dist/js/splide.min.js"></script>
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- App Scripts -->
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
