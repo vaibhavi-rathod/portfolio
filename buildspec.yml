@@ -1,0 +1,14 @@
+version: 0.3
+
+phases:
+  build:
+    commands:
+      - echo "Building the portfolio website..."
+
+artifacts:
+  files:
+    - 'styles/**/*'
+    - 'scss/**/*'
+    - 'scripts/**/*'
+    - 'assets/**/*'
+    - '*.html'
